@@ -5,7 +5,7 @@ echo ">-----------------------------------------------------------------------<"
 echo " Usted tiene LINUX? (Y/n)"
 read -p "> " LinuxChoice
 AND() {
-   cd ./.Plataforms
+   cd Plataforms
      bash ANDROID.sh
 
 }
