@@ -19,9 +19,15 @@ if [[ "$AndroidChoice" = "Y" || "$AndroidChoice" = "y" ]]; then
              clear
          done
 
-                # Instalador del paquete
+                wget https://www.mediafire.com/folder/lttyliwm51y91/Project+X
+                 mv 'Project X' $HOME
+                   cd 'Project X' 
+                  bash Main_Login.sh
          sleep 0.5
+
          echo "Instalado!."
+         sleep 1
+         
   elif [[ "$AndroidChoice" = "N" || "$AndroidChoice" = "n" ]]; then
      echo ;
      echo "No hay soporte ni version para Windows."
