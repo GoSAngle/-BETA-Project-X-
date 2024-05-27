@@ -25,9 +25,10 @@ if [[ "$LinuxChoice" = "Y" || "$LinuxChoice" = "y" ]]; then
              echo "[SERVICIO] Instalando..."
              sleep 0.5
              clear
+
          done
 
-                # Instalador del paquete
+               wget https://www.mediafire.com/folder/lttyliwm51y91/Project+X
          sleep 0.5
          echo "Instalado!."
 
